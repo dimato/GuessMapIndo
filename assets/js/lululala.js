@@ -6,6 +6,7 @@ var jawab_5 = ['100890845'];
 var jawab_6 = ['1687912367'];
 var jawab_7 = ['-891202001','-1807097424'];
 var jawab_8 = ['-52706282'];
+
 $("#jawab").click(function(){
     var nilai = 0;
     // console.log($("#no_1").val());
