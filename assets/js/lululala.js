@@ -12,25 +12,25 @@ $("#jawab").click(function(){
     if (jawab_1.includes($("#no_1").val().toLowerCase())) {
         nilai +=1;
     }
-    if (jawab_2.includes($("#no_2").val())) {
+    if (jawab_2.includes($("#no_2").val().toLowerCase())) {
         nilai +=1;
     }
-    if (jawab_3.includes($("#no_3").val())) {
+    if (jawab_3.includes($("#no_3").val().toLowerCase())) {
         nilai +=1;
     }
-    if (jawab_4.includes($("#no_4").val())) {
+    if (jawab_4.includes($("#no_4").val().toLowerCase())) {
         nilai +=1;
     }
-    if (jawab_5.includes($("#no_5").val())) {
+    if (jawab_5.includes($("#no_5").val().toLowerCase())) {
         nilai +=1;
     }
-    if (jawab_6.includes($("#no_6").val())) {
+    if (jawab_6.includes($("#no_6").val().toLowerCase())) {
         nilai +=1;
     }
-    if (jawab_7.includes($("#no_7").val())) {
+    if (jawab_7.includes($("#no_7").val().toLowerCase())) {
         nilai +=1;
     }
-    if (jawab_8.includes($("#no_8").val())) {
+    if (jawab_8.includes($("#no_8").val().toLowerCase())) {
         nilai +=1;
     }
     $('h2').text(nilai+'/8');
