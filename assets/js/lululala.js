@@ -43,26 +43,7 @@ $("#jawab").click(function(){
         nilai +=1;
     }
     $('h2').text(nilai+'/8');
-    // var encrypted1 = CryptoJS.AES.encrypt(in_1, "Secret Passphrase");
-    // var encrypted2 = CryptoJS.AES.encrypt(in_2, "Secret Passphrase");
-    // var encrypted3 = CryptoJS.AES.encrypt(in_3, "Secret Passphrase");
-    // var encrypted4 = CryptoJS.AES.encrypt(in_4, "Secret Passphrase");
-    // var encrypted5 = CryptoJS.AES.encrypt(in_5, "Secret Passphrase");
-    // var encrypted6 = CryptoJS.AES.encrypt(in_6, "Secret Passphrase");
-    // var encrypted7 = CryptoJS.AES.encrypt(in_7, "Secret Passphrase");
-    // var encrypted8 = CryptoJS.AES.encrypt(in_8, "Secret Passphrase");
-    $('#encode').text(
-        'jawab1 = '+in_1+'\n'+
-        'jawab2 = '+in_2+'\n'+
-        'jawab3 = '+in_3+'\n'+
-        'jawab4 = '+in_4+'\n'+
-        'jawab5 = '+in_5+'\n'+
-        'jawab6 = '+in_6+'\n'+
-        'jawab7 = '+in_7+'\n'+
-        'jawab8 = '+in_8+'\n'
-
-        );
-        console.log(in_1);
+    
 })
 function stringToHash(string) {
                   
@@ -78,6 +59,3 @@ function stringToHash(string) {
       
     return ''+hash;
 }
-  
-// String printing in hash
-var gfg = "GeeksforGeeks"

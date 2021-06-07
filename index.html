@@ -47,7 +47,6 @@
                     </div>
                     <a href="#" id="jawab" class="btn btn-primary m-2">Jawab</a>
                     <h2></h2>
-                    <p id="encode"></p>
                 </form>
             </div>
             <div class="col-9 text-right">
@@ -196,11 +195,7 @@
 <script>
     $(document).ready(function(){
         $("input:text").click(function(){
-            // $(".cls-1").removeClass("turn-red");
             var id_input = $(this).attr("id_input");
-            // console.log(id_input);
-            // console.log($(".col-8"));
-            // console.log($("[id_path="+id_input+"]"));
             $(".cls-1").removeClass("turn-red");
             $("[id_path="+id_input+"]").addClass("turn-red");
         });
