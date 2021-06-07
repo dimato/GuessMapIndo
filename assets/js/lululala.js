@@ -1,4 +1,3 @@
-var nilai = 0;
 var jawab_1 = ['aceh'];
 var jawab_2 = ['sumatera utara','sumatra utara','sumut'];
 var jawab_3 = ['riau'];
@@ -8,8 +7,9 @@ var jawab_6 = ['bengkulu'];
 var jawab_7 = ['sumatera selatan','sumatra selatan','sumsel'];
 var jawab_8 = ['lampung'];
 $("#jawab").click(function(){
+    var nilai = 0;
     // console.log($("#no_1").val());
-    if (jawab_1.includes($("#no_1").val())) {
+    if (jawab_1.includes($("#no_1").val().toLowerCase())) {
         nilai +=1;
     }
     if (jawab_2.includes($("#no_2").val())) {
